@@ -1,0 +1,40 @@
+.post-content{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 100ms ease-in-out;
+}
+.post-content img{
+height: 200px;
+object-fit: cover;
+}
+  
+.post-content:hover{
+transform: scale(1.05);
+}
+  
+.title{
+text-align: center;
+font-size: 17px;
+font-weight: bold;
+padding: 0 5px
+}
+
+.body{
+font-size: 15px;
+text-align: justify;
+padding: 0 5px
+}
+  
+.numPost {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 100%;
+    font-weight: bold;
+    padding: 5px;
+}

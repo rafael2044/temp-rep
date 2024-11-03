@@ -1,0 +1,10 @@
+.btn{
+    height: 30px;
+    width: auto;
+    padding:5px;
+    font-weight: bold;
+}
+
+.active{
+    background-color: blue;
+}
